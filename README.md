@@ -49,24 +49,61 @@ lib/
 ## 📱 Características Implementadas
 
 - [x] Configuración inicial del proyecto
-- [x] Arquitectura base
+- [x] Arquitectura base (Clean Architecture)
 - [x] Tema y estilos
 - [x] Integración con TMDB API
-- [ ] Lista de películas populares
-- [ ] Búsqueda de películas
-- [ ] Detalles de película
+- [x] Navegación principal con 4 secciones:
+  - [x] Home (Películas populares)
+  - [x] Explorar
+  - [x] Favoritos
+  - [x] Configuración
+- [x] Gestión de películas:
+  - [x] Lista de películas populares
+  - [x] Lista de películas mejor valoradas
+  - [x] Lista de películas próximas
+  - [x] Búsqueda de películas
+  - [x] Detalles de película
+  - [x] Créditos de película
+  - [x] Videos de película
+  - [x] Reseñas de película
+  - [x] Películas similares
+  - [x] Recomendaciones
+- [x] Filtros y categorías:
+  - [x] Filtros por género
+  - [x] Filtros por año
+  - [x] Filtros por idioma
+  - [x] Filtros por región
+  - [x] Filtros por rango de fechas
+- [x] UI/UX:
+  - [x] Diseño responsive
+  - [x] Tema oscuro por defecto
+  - [x] Animaciones y transiciones
+  - [x] Paginación infinita
+  - [x] Búsqueda con debounce
+  - [x] Tarjetas de películas con efectos
+  - [x] Vista en grid y lista
+  - [x] Swiper vertical de películas
+  - [x] Indicadores de carga personalizados
+  - [x] Placeholders para imágenes
+- [x] Autenticación:
+  - [x] Login/Registro con email
+  - [x] Login con Google
+  - [x] Gestión de sesión
+- [x] Favoritos:
+  - [x] UI implementada
+  - [x] Integración con Firestore
+  - [x] Gestión de favoritos por usuario
 - [ ] Caché local
-- [ ] Filtros y categorías
-- [ ] Favoritos
+- [ ] Compartir películas (UI implementada, pendiente lógica)
 
 ## 🚀 Próximas Características
 
-- [ ] Autenticación de usuarios
 - [ ] Listas personalizadas
-- [ ] Recomendaciones
 - [ ] Modo offline
 - [ ] Notificaciones
-- [ ] Compartir películas
+- [ ] Estadísticas de usuario
+- [ ] Recomendaciones personalizadas
+- [ ] Integración con redes sociales
 
 ## 🛠 Requisitos
 

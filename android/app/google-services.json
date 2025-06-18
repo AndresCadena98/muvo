@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "35722781000",
+    "project_id": "muvo-40597",
+    "storage_bucket": "muvo-40597.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:35722781000:android:ef3e275969cb074c8d937d",
+        "android_client_info": {
+          "package_name": "com.andrew.muvo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "35722781000-cmvfnblf11flq7tocoqas0l639s80ekp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.andrew.muvo",
+            "certificate_hash": "d7c48920f3d6cc1fca66cd2471bcad8f8fea5a72"
+          }
+        },
+        {
+          "client_id": "35722781000-btl7efg04ukh02ecg1lo81p20f38v8dt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyPLaB_YWfdAvBqUFe-z3gPHUbhk9xhq0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "35722781000-btl7efg04ukh02ecg1lo81p20f38v8dt.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "35722781000-uapv7r6ofcrr3l0u11tccgtf23bprqim.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.andrew.muvo"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

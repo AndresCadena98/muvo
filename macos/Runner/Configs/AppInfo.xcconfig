@@ -8,7 +8,7 @@
 PRODUCT_NAME = muvo
 
 // The application's bundle identifier
-PRODUCT_BUNDLE_IDENTIFIER = com.example.muvo
+PRODUCT_BUNDLE_IDENTIFIER = com.andrew.muvo
 
 // The copyright displayed in application information
 PRODUCT_COPYRIGHT = Copyright © 2025 com.example. All rights reserved.

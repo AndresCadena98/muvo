@@ -1,0 +1,12 @@
+export 'get_popular_movies.dart';
+export 'get_top_rated_movies.dart';
+export 'get_upcoming_movies.dart';
+export 'get_movie_details.dart';
+export 'search_movies.dart';
+export 'get_movie_credits.dart';
+export 'get_movie_videos.dart';
+export 'get_movie_reviews.dart';
+export 'get_movies_by_year.dart';
+export 'get_movies_by_language.dart';
+export 'get_movies_by_region.dart';
+export 'get_movies_by_release_date_range.dart'; 

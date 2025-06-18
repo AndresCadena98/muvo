@@ -4,20 +4,20 @@ class Movie extends Equatable {
   final int id;
   final String title;
   final String overview;
-  final String posterPath;
-  final String backdropPath;
+  final String? posterPath;
+  final String? backdropPath;
   final double voteAverage;
-  final String releaseDate;
+  final String? releaseDate;
   final List<int> genreIds;
 
   const Movie({
     required this.id,
     required this.title,
     required this.overview,
-    required this.posterPath,
-    required this.backdropPath,
+    this.posterPath,
+    this.backdropPath,
     required this.voteAverage,
-    required this.releaseDate,
+    this.releaseDate,
     required this.genreIds,
   });
 
@@ -32,4 +32,7 @@ class Movie extends Equatable {
         releaseDate,
         genreIds,
       ];
+
+  String get posterUrl => 'https://image.tmdb.org/t/p/w500$posterPath';
+  String get backdropUrl => 'https://image.tmdb.org/t/p/original$backdropPath';
 } 
